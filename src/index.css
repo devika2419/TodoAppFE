@@ -1,0 +1,23 @@
+
+:root {
+  --main-font: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif, 'Quicksand';
+  --main-bg-color: rgba(255,255,255,255);
+  --main-padding: 2rem;
+}
+
+/* Styles applied to the body */
+body {
+  font-family: var(--main-font);
+  background-color: var(--main-bg-color);
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Media query for screens with a max-width of 1020px */
+@media (max-width: 1020px) {
+  body {
+    overflow-y: scroll;
+  }
+}

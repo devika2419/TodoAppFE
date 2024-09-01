@@ -1,0 +1,29 @@
+.navbar-body{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8f89b7 ;  /*#263957*/
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    padding: 1rem 0.5rem ; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    z-index: 1000; 
+    margin-bottom: 5%;
+
+  }
+
+  .button-navbar-container{
+    display: flex; 
+    align-items: center; 
+    margin-left: auto;
+    padding-right: 5%;
+    justify-content: center;
+  }
+  
+  .add-task, .sign-out {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }

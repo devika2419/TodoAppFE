@@ -1,0 +1,27 @@
+.navbar-body{
+    width: 100%;
+    position: sticky;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    overflow-x: hidden;
+    background-color: #8f89b7;
+    
+}
+
+
+
+.add-task{
+    margin-left: auto;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.list-item{
+    color: aqua;
+}

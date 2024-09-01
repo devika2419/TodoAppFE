@@ -1,0 +1,9 @@
+.main-task-body{
+    /* background: linear-gradient(to top, #FF9B9B, #FF9B9B 30%, #8f89b7); */
+    background-color: rgba(241,245,254,255);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden; 
+}
